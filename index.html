@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="رحلة تفاعلية لتعلّم أحكام النون الساكنة والتنوين في Milestone School">
+  <title>رحلة التجويد | Milestone School</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="top" class="hero">
+    <div class="hero-pattern" aria-hidden="true"></div>
+    <div class="orb orb-one" aria-hidden="true"></div><div class="orb orb-two" aria-hidden="true"></div>
+    <nav class="nav" aria-label="التنقل الرئيسي">
+      <a class="brand" href="#top"><span class="logo-wrap logo-small"><img src="logo.jpeg" alt=""></span><span>رحلة التجويد</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">القائمة ☰</button>
+      <div id="nav-links" class="nav-links">
+        <a href="#map">الأحكام</a><a href="#games">الألعاب</a><a href="#quiz">الاختبار</a>
+        <button id="sound-toggle" class="nav-action" type="button" aria-pressed="true" title="تشغيل أو كتم الصوت">🔊 <span>الصوت</span></button>
+        <button id="teacher-mode" class="nav-action" type="button" aria-pressed="false">وضع المعلّمة</button>
+      </div>
+    </nav>
+    <div class="progress-card">
+      <div class="progress-title"><span>التقدم في الدرس</span><strong id="progress-count">٠ من ٤</strong></div>
+      <div id="lesson-progress" class="lesson-progress" aria-label="تقدم الدروس"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-copy">
+        <span class="eyebrow">Milestone School</span>
+        <h1>أحكام النون الساكنة<br><em>والتنوين</em></h1>
+        <p class="hero-lead">رحلة تفاعلية في عالم التجويد</p>
+        <p class="journey-steps">تعلّم <b>•</b> اكتشف <b>•</b> جرّب <b>•</b> أتقن</p>
+        <a class="primary-button" href="#intro">ابدأ الرحلة <span>←</span></a>
+      </div>
+      <div class="hero-visual" aria-label="شعار مدرسة Milestone">
+        <span class="sparkle s1">✦</span><span class="sparkle s2">✧</span><span class="sparkle s3">✦</span>
+        <div class="logo-wrap logo-hero"><img src="logo.jpeg" alt="شعار Milestone School"></div>
+        <div class="visual-caption"><strong>رحلة التجويد</strong><small>مساحة تعليمية تفاعلية</small></div>
+      </div>
+    </div>
+    <div class="cloud cloud-a" aria-hidden="true"></div><div class="cloud cloud-b" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section id="intro" class="section intro">
+      <div class="section-heading"><span>البداية</span><h2>ما النون الساكنة والتنوين؟</h2></div>
+      <div class="intro-grid">
+        <article class="card definition"><div class="card-icon noon">نْ</div><div><h3>النون الساكنة</h3><p>نون خالية من الحركة، ويكون فوقها علامة السكون، مثل:</p><p class="arabic-example">مِ<span class="focus-n">نْ</span> – أَ<span class="focus-n">نْ</span>عَمْتَ</p></div></article>
+        <article class="card definition"><div class="card-icon tanween">ـٌ</div><div><h3>التنوين</h3><p>نون ساكنة زائدة تُنطق ولا تُكتب، وتأتي في آخر الاسم، مثل:</p><p class="arabic-example"><span class="focus-n">عليمٌ</span> – <span class="focus-n">عليمًا</span> – <span class="focus-n">عليمٍ</span></p></div></article>
+      </div>
+      <aside class="tip"><span aria-hidden="true">◉</span><p><strong>القاعدة الذهبية:</strong> حتى نعرف الحكم ننظر إلى الحرف الذي يأتي بعد النون الساكنة أو التنوين.</p></aside>
+    </section>
+
+    <section id="map" class="section map-section">
+      <div class="section-heading centered"><span>خريطة الرحلة</span><h2>أربعة أحكام، ومسار واحد للإتقان</h2><p>اختر بطاقة للانتقال إلى شرح الحكم</p></div>
+      <div class="rule-map">
+        <a href="#izhar" class="map-card rule-izhar"><small>المحطة الأولى</small><h3>الإظهار</h3><div class="map-letters">ء هـ ع ح غ خ</div><p>نطق واضح</p><span>استكشف الدرس ←</span></a>
+        <a href="#idgham" class="map-card rule-idgham"><small>المحطة الثانية</small><h3>الإدغام</h3><div class="map-letters">ي ر م ل و ن</div><p>دمج النون أو التنوين بالحرف التالي</p><span>استكشف الدرس ←</span></a>
+        <a href="#iqlab" class="map-card rule-iqlab"><small>المحطة الثالثة</small><h3>الإقلاب</h3><div class="map-letters">ب</div><p>قلب إلى ميم مخفاة</p><span>استكشف الدرس ←</span></a>
+        <a href="#ikhfa" class="map-card rule-ikhfa"><small>المحطة الرابعة</small><h3>الإخفاء</h3><div class="map-letters">١٥ حرفًا</div><p>بين الإظهار والإدغام</p><span>استكشف الدرس ←</span></a>
+      </div>
+    </section>
+
+    <div id="lessons"></div>
+
+    <section id="compare" class="section summary-section">
+      <div class="section-heading centered"><span>مراجعة سريعة</span><h2>ملخص الأحكام</h2></div>
+      <div class="compare-grid">
+        <article class="rule-izhar"><h3>الإظهار</h3><b>٦ حروف</b><p>نطق واضح</p></article>
+        <article class="rule-idgham"><h3>الإدغام</h3><b>٦ حروف</b><p>«ينمو» بغنة</p><small>ل، ر بغير غنة</small></article>
+        <article class="rule-iqlab"><h3>الإقلاب</h3><b>حرف واحد: ب</b><p>ميم مخفاة مع غنة</p></article>
+        <article class="rule-ikhfa"><h3>الإخفاء</h3><b>١٥ حرفًا</b><p>بين الإظهار والإدغام</p></article>
+      </div>
+    </section>
+
+    <section id="games" class="section games-section">
+      <div class="section-heading centered"><span>التدريب التفاعلي</span><h2>جرّب ما تعلّمته</h2><p>ستظهر نتيجة واضحة في نهاية كل جولة</p></div>
+      <div class="game-tabs" role="tablist" aria-label="اختيار لعبة">
+        <button class="active" data-game="classify">صنّف الحكم</button><button data-game="sort">رتّب الحروف</button><button data-game="reveal">اكشف الجواب</button><button data-game="truefalse">صح أم خطأ</button><button data-game="findrule">أين الحكم؟</button><button data-game="drag">اسحب المثال</button>
+      </div>
+      <div id="game-stage" class="game-stage" aria-live="polite"></div>
+    </section>
+
+    <section id="quiz" class="section quiz-section">
+      <div class="quiz-shell">
+        <div class="quiz-copy"><span>التحدي الختامي</span><h2>اختبار رحلة التجويد</h2><p>عشرة أسئلة متنوعة تجمع ما تعلّمته، وتظهر النتيجة في النهاية.</p><div id="best-score"></div></div>
+        <div id="quiz-card" class="quiz-card"><div class="quiz-start"><div class="trophy">✦</div><h3>جاهز للتحدي؟</h3><p>اختر الإجابة الصحيحة، ويمكن إعادة الاختبار في أي وقت.</p><button id="start-quiz" class="primary-button">ابدأ الاختبار</button></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><span class="logo-wrap logo-footer"><img src="logo.jpeg" alt="شعار Milestone School"></span><h2>أحسنت! واصل التدريب</h2><p>بالتدريب تصبح التلاوة أجمل وأكثر إتقانًا.</p><button id="reset-progress" class="text-button">↻ إعادة التقدم</button><small>رحلة التجويد · Milestone School</small></footer>
+  <button id="back-top" aria-label="العودة إلى أعلى الصفحة">↑</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <div id="confetti" class="confetti-layer" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
